@@ -74,3 +74,8 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+ul li a:hover{
+    text-transform: capitalize;
+    color: brown;
+    border-bottom: solid 1px;
+}

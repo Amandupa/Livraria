@@ -6,15 +6,16 @@
 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: #f0f0f0;
 }
 
 
 header {
-    background-color: #333;
+    background-color: #61044a;
     color: #fff;
     text-align: center;
+    
     
     /* assim (cima, baixo, esquerda, direita) */
     padding: 20px 20px 20px 20px;
@@ -23,11 +24,12 @@ header {
 }
 nav ul {
     list-style: none; /* Remove o estilo da lista */
+    padding: 25px;
 }
 
 nav li {
     display: inline; /* Deixa os itens da lista em linha */
-    margin-right: 20px; /* Adiciona um espaçamento de 20px entre os itens da lista */
+    margin-right: 30px; /* Adiciona um espaçamento de 20px entre os itens da lista */
 }
 
 nav a {
@@ -35,6 +37,13 @@ nav a {
     font-weight: bold; /* Deixa o texto em negrito */
     color: #fff; /* Cor do texto */
 }
+
+ul li a:hover{
+    text-transform: capitalize;
+    color: brown;
+    border-bottom: solid 1px;
+}
+
 main {
     padding: 20px; /* espaçamento interno */
     overflow: hidden; /* esconde o conteúdo que ultrapassa o tamanho do elemento */
@@ -55,7 +64,7 @@ main {
 }
 
 .card button {
-    background-color: #333;
+    background-color: #800f0f;
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -74,8 +83,4 @@ footer {
     text-align: center;
     padding: 1rem;
 }
-ul li a:hover{
-    text-transform: capitalize;
-    color: brown;
-    border-bottom: solid 1px;
-}
+
